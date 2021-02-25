@@ -1,0 +1,7 @@
+npm --version
+npm install -g @angular/cli@latest
+
+ng --version
+ng new ola-mundo
+cd ola-mundo
+ng serve
