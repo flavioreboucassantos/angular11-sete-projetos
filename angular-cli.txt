@@ -1,7 +1,18 @@
 npm --version
 npm install -g @angular/cli@latest
+npm install # download das dependencias
+npm install --save bootstrap@4.6.0 # instala no projeto a biblioteca externa bootstrap versão 4.6.0
 
 ng --version
 ng new ola-mundo
 cd ola-mundo
-ng serve
+
+ng serve # sobe a aplicação
+ng test # executa testes unitários
+ng e2e # executa testes de integração
+ng lint # verifica se o código criado está padronizado
+ng build --prod # gera uma distribuição/código pronto para produção
+
+ng g module calculadora # generate module calculadora
+ng g component calculadora/calculadora # generate component calculadora inside module calculadora
+ng g service calculadora/services/calculadora # generate service calculadora inside module calculadora
