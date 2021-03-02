@@ -9,7 +9,7 @@
 	<div class="panel-body text-center">
 		<form #conversaoForm="ngForm" class="form-inline">
 			<input type="text" name="valor" class="form-control text-right" placeholder="0"
-				[(ngModel)]="conversao.valor" numero required>{{conversao.valor}}
+				[(ngModel)]="conversao.valor" numero required>
 			<select name="moedaDe" class="form-control" [(ngModel)]="conversao.moedaDe" required>
 				<option *ngFor="let moeda of moedas" [value]="moeda.sigla">
 					{{ moeda.sigla }} - {{ moeda.descricao }}
@@ -25,4 +25,7 @@
 				data-target="#modalCotacao" (click)="converter()" [disabled]="!conversaoForm.form.valid">
 		</form>
 	</div>
+	<modal-cotacao [id]="'modalCotacao'" [conversaoResponse]="conversaoResponse" [conversao]="conversao"
+		(onConfirm)="init()">
+	</modal-cotacao>
 </div>
