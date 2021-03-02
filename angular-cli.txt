@@ -15,8 +15,8 @@ ng e2e # executa testes de integração
 ng lint # verifica se o código criado está padronizado
 ng build --prod # gera uma distribuição/código pronto para produção
 
-ng g module calculadora # generate module calculadora
-ng g component calculadora/calculadora # generate component calculadora inside module calculadora
-ng g service calculadora/services/calculadora # generate service calculadora inside module calculadora, folder services
-ng g directive tarefas/shared/tarefa-concluida # generate directive tarefa-concluida inside module tarefas, folder shared
-ng g pipe conversor/pipes/data-br # generate pipe data-br inside module conversor, folder pipes
+ng g module calculadora # generates module calculadora
+ng g component calculadora/calculadora # generates component calculadora inside module calculadora
+ng g service calculadora/services/calculadora # generates service calculadora inside module calculadora, folder services
+ng g directive tarefas/shared/tarefa-concluida # generates directive tarefa-concluida inside module tarefas, folder shared
+ng g pipe conversor/pipes/data-br # generates pipe data-br inside module conversor, folder pipes
