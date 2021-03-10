@@ -1,9 +1,9 @@
 npm --version
 npm install -g @angular/cli@latest
 npm install # download das dependencias
-npm install --save bootstrap@4.6.0 # instala no projeto a biblioteca externa bootstrap versão 4.6.0
-npm install --save jquery # instala no projeto a biblioteca externa jQuery
-npm install --save rxjs-compat # instala no projeto a biblioteca externa RxJS
+npm install bootstrap@4.6.0 # instala no projeto a biblioteca externa bootstrap versão 4.6.0
+npm install jquery # instala no projeto a biblioteca externa jQuery
+npm install rxjs-compat # instala no projeto a biblioteca externa RxJS
 
 ng --version
 ng new ola-mundo
